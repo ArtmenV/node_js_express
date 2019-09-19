@@ -1,19 +1,21 @@
 {
-  "name": "nodejs",
+  "name": "node-express",
   "version": "1.0.0",
-  "description": "node js ",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": [
-    "nodejs",
-    "js"
-  ],
-  "author": "Artmen_V",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "uuid": "^3.3.2"
+  },
   "devDependencies": {
-    "nodemon": "^1.19.2"
+    "nodemon": "^1.18.11"
   }
 }
